@@ -1,0 +1,1 @@
+/opt/mono/bin/fastcgi-mono-server4 /applications=site:/:`pwd` /socket=tcp:127.0.0.1:9000 /loglevels=Debug /printlog=true

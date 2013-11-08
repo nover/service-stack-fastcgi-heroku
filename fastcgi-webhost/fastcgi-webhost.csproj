@@ -70,5 +70,21 @@
   </ProjectExtensions>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Global.asax" />
+    <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\fastcgi-serviceinterface\fastcgi-serviceinterface.csproj">
+      <Project>{0D0652BC-4730-485F-B74A-2E8B88FEFBAA}</Project>
+      <Name>fastcgi-serviceinterface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="start-fastcgi.sh" />
   </ItemGroup>
 </Project>
