@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fastcgi-webhost", "fastcgi-webhost\fastcgi-webhost.csproj", "{EF7B0383-074F-4CF7-92E3-3D6737B324DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fastcgi-model", "fastcgi-model\fastcgi-model.csproj", "{3B647F9E-81F5-4121-AE5D-CA72DA8B1DE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fastcgi-serviceinterface", "fastcgi-serviceinterface\fastcgi-serviceinterface.csproj", "{0D0652BC-4730-485F-B74A-2E8B88FEFBAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D0652BC-4730-485F-B74A-2E8B88FEFBAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0652BC-4730-485F-B74A-2E8B88FEFBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0652BC-4730-485F-B74A-2E8B88FEFBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0652BC-4730-485F-B74A-2E8B88FEFBAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B647F9E-81F5-4121-AE5D-CA72DA8B1DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B647F9E-81F5-4121-AE5D-CA72DA8B1DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B647F9E-81F5-4121-AE5D-CA72DA8B1DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B647F9E-81F5-4121-AE5D-CA72DA8B1DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF7B0383-074F-4CF7-92E3-3D6737B324DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7B0383-074F-4CF7-92E3-3D6737B324DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7B0383-074F-4CF7-92E3-3D6737B324DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7B0383-074F-4CF7-92E3-3D6737B324DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = fastcgi-webhost\fastcgi-webhost.csproj
+	EndGlobalSection
+EndGlobal
